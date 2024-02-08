@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(101, 168, 168);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(14, 36, 36);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header h1 {
+    background-color: rgb(101, 168, 168);
+    display: inline;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+nav a {
+    color: rgb(101, 168, 168);
+    text-decoration: none;
+}
+
+header nav {
+    align-items: center;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid black;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+
+.workarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-item {
+    background-color: azure;
+    border: 5px solid rgb(185, 114, 6);
+    min-height: 50px;
+    min-width: 150px;
+    height: 30px;
+    width: 48%;
+    align-items: flex-end;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#portfolio {
+    background-image: url("../images/dots.jpg");
+}
+
+#challenge1 {
+    background-image: url("../images/wood.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#resolution {
+    background-image: url("../images/tech.jpg");
+}
+
+#demo {
+    background-image: url("../images/field.jpg");
+}
+
+.work-item:first-child {
+    width: 100%;
+    background-image: url("../images/rain.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 175px;
+}
+
+.work-item h3 {
+    background-color: cadetblue;
+    display: inline;
+}
+
+.portfolio-section>h2 {
+    flex: 0 0 20%;
+    border-right: 5px solid yellow;
+    font-size: 300%;
+    text-align: right;
+
+}
+
+.portfolio-section>div {
+    flex: 0 0 75%;
+
+}
+
+.portfolio-section a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.banner {
+    display: flex;
+    min-height: 50px;
+    background-color: brown;
+    background-image: url("../images/dog.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner div {
+    flex: 0 0 90%;
+}
+
+#subtitle {
+    color: chocolate;
+    font-size: 200%;
+}

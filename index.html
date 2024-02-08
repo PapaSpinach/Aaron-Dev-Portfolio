@@ -2,6 +2,13 @@
 <html lang="en">
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev Portfolio</title>
@@ -9,20 +16,23 @@
 
 <body>
     <header>
-        <h1>Learnantino</h1>
+        <h1>Aarons Portfolio</h1>
         <nav>
             <a href="#aboutme">About</a> |
             <a href="#work">Work</a> |
             <a href="#contactme">Contact Me</a> |
 
         </nav>
-        <div>
-            <p>Amazing Subtitle Here!</p>
-        </div>
-
     </header>
+    <section class="banner">
+        <div>
+            <p id="subtitle">Amazing Subtitle Here!</p>
+        </div>
+    </section>
+
+
     <main>
-        <section id="aboutme">
+        <section id="aboutme" class="portfolio-section">
             <h2>About me</h2>
             <div>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -34,50 +44,54 @@
                     PageMaker including versions of Lorem Ipsum.</p>
             </div>
         </section>
-        <section id="work">
+        <section id="work" class="portfolio-section">
             <h2>Work</h2>
-            <article>
-                <a href="https://github.com/PapaSpinach/pull-request-demo">
+            <div class="workarea">
+                <a href="https://github.com/PapaSpinach/pull-request-demo" class="work-item">
                     <div>
                         <h3>Pull-Request-Demo</h3>
-                        <p>Language goes here</p>
+                        <!-- <span>This is a pull request test</span> -->
                     </div>
                 </a>
-            </article>
-            <article>
-                <a href="">
+
+
+                <a id="challenge1" href="https://github.com/PapaSpinach/Aarons-HTML-CSS-Challenge1" class="work-item">
                     <div>
-                        <h3>LED Wall</h3>
-                        <p>Language goes here</p>
+                        <h3>Aarons-HTML-CSS-Challenge1</h3>
+                        <!-- <p>Enter Description Here Refactored existing code to meet standards and make site more
+                            accessible.</p> -->
                     </div>
                 </a>
-            </article>
-            <article>
-                <a href="">
+
+
+                <a id="portfolio" href="https://github.com/PapaSpinach/Aaron-Dev-Portfolio" class="work-item">
                     <div>
-                        <h3>Calculator</h3>
-                        <p>Language goes here</p>
+                        <h3>Aaron-Dev-Portfolio</h3>
+                        <!--  <p>I am building a developer portfolio that contains a single page. It contains navigation
+                            links
+                            that takes you to different sections, about me, work, and contact me. In my portfolio, I
+                            will be flexbox, media queries, and CSS variables</p> -->
                     </div>
                 </a>
-            </article>
-            <article>
-                <a href="">
+
+
+                <a id="resolution" href="https://github.com/PapaSpinach/conflict-resolution" class="work-item">
                     <div>
                         <h3>Patel Puzzles</h3>
-                        <p>Language goes here</p>
+                        <!-- <p>Language goes here</p> -->
                     </div>
                 </a>
-            </article>
-            <article>
-                <a href="">
+
+
+                <a id="demo" href="https://github.com/PapaSpinach/first-day-demo" class="work-item">
                     <div>
                         <h3>Run Buddy</h3>
-                        <p>Language goes here</p>
+                        <!-- <p>Language goes here</p> -->
                     </div>
                 </a>
-            </article>
+            </div>
         </section>
-        <section id="contactme">
+        <section id="contactme" class="portfolio-section">
             <h2>Contact Me</h2>
             <div>
                 <a href="tel:+5555555555">555.555.5555</a>
